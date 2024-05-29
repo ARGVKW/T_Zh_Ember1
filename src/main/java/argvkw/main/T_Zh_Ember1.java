@@ -1,6 +1,7 @@
 
 package argvkw.main;
 
+import controller.ConsoleController;
 import model.Ember;
 
 public class T_Zh_Ember1 {
@@ -17,6 +18,11 @@ public class T_Zh_Ember1 {
         };
         
         System.out.println("Emberek hozzáadva: " + emberek.length);
+        
+        for (Ember ember : emberek) {
+            ConsoleController consoleEmber = new ConsoleController(ember);
+            consoleEmber.bemutatkozik();
+        }
         
         
     }

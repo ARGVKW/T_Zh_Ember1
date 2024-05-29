@@ -44,7 +44,7 @@ public class Ember {
     }
     
     public String bemutatkozik() {
-        return "Hello! A nevem" + this.nev + ", " + (Year.now().getValue() - this.szulEv) + "éves vagyok.";
+        return "Hello! A nevem " + this.nev + ", " + (Year.now().getValue() - this.szulEv) + " éves vagyok.";
     }
     
     public String mitDolgozik() {
