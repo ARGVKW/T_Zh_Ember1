@@ -48,7 +48,11 @@ public class Ember {
     }
     
     public String mitDolgozik() {
-        return this.nev + "foglalkozása" + this.foglalkozas;
+        return this.foglalkozas + " vagyok.";
+    }
+    
+    public String holLakik() {
+        return "Lakhelyem " + this.cim + ".";
     }
     
     @Override

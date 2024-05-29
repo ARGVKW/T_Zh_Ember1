@@ -9,6 +9,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>22</maven.compiler.source>
         <maven.compiler.target>22</maven.compiler.target>
-        <exec.mainClass>argvkw.t_zh_ember1.T_Zh_Ember1</exec.mainClass>
+        <exec.mainClass>argvkw.main.T_Zh_Ember1</exec.mainClass>
     </properties>
 </project>
