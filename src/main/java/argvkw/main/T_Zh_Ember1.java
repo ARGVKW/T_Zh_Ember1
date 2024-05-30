@@ -2,12 +2,13 @@
 package argvkw.main;
 
 import controller.ConsoleController;
+import controller.FrameController;
 import model.Ember;
 
 public class T_Zh_Ember1 {
 
     public static void main(String[] args) {
-        System.out.println("T_Zh_Ember1 started...");
+        System.out.println("T_Zh_Ember1 program indul...");
         
         Ember[] emberek = {
             new Ember("Ödön", 1999, "Üllő", "ács", "férfi"),
@@ -24,6 +25,11 @@ public class T_Zh_Ember1 {
             consoleEmber.bemutatkozik();
         }
         
+        System.out.println("Konzol nezet elindult");
+               
+        FrameController frameEmberek = new FrameController(emberek);
+        frameEmberek.show();
         
+        System.out.println("GUI elindult");
     }
 }

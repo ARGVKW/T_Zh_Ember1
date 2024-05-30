@@ -48,7 +48,7 @@ public class Ember {
     }
     
     public String mitDolgozik() {
-        return this.foglalkozas + " vagyok.";
+        return "Foglalkozásom " + this.foglalkozas + ".";
     }
     
     public String holLakik() {
@@ -59,6 +59,4 @@ public class Ember {
     public String toString() {
         return "Ember{" + "nev=" + nev + ", szulEv=" + szulEv + ", cim=" + cim + '}';
     }
-    
-    
 }
